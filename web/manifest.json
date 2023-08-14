@@ -1,6 +1,6 @@
 {
-    "name": "jubi_website",
-    "short_name": "jubi_website",
+    "name": "mamie_website",
+    "short_name": "mamie_website",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

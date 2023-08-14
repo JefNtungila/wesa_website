@@ -1,4 +1,4 @@
-# jubi_website
+# mamie_website
 
 A new Flutter project.
 
