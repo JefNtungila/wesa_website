@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class MarkdownReader extends StatefulWidget {
 
@@ -39,6 +41,14 @@ class _MarkdownReaderState extends State<MarkdownReader> {
     }
   }
 
+  void _onTapLink(String text, String? href, String title) async{
+    if (await canLaunch(href!)){
+      await launch(href);
+    } else {
+      print('Could not launch $href');
+    }
+  }
+
   @override //ask chatgpt what second override does
 
   Widget build(BuildContext context) {
@@ -49,7 +59,8 @@ class _MarkdownReaderState extends State<MarkdownReader> {
         color: Colors.white,
         child: Padding(
           padding: EdgeInsets.all(16.0),
-          child: Markdown(data: _markdownContent,),
+          child: Markdown(data: _markdownContent,
+          onTapLink: _onTapLink),
         ),
       ),
     );

@@ -17,8 +17,8 @@ class HomePage extends StatelessWidget {
                   child: Container(
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage('assets/mamie_logo.png'),
-                            fit: BoxFit.fill)),
+                            image: AssetImage('assets/jef_ntungila.png'),
+                            fit: BoxFit.contain)),
                   ),
                 ),
               ),
@@ -62,12 +62,12 @@ class HomePage extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  SizedBox(height: 15),
+                  SizedBox(height: 30),
                   Text(
                     'Recent Posts',
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
                   ),
-                  SizedBox(height: 15),
+                  SizedBox(height: 30),
                   GestureDetector(
                     onTap:() {
                       Navigator.of(context).push(
