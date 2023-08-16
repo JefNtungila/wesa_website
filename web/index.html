@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+
+<!-- Add these script tags to the head of your HTML file -->
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics.js"></script>
+<!-- Add other Firebase services scripts if needed -->
+
 <html>
 <head>
   <!--
@@ -100,5 +106,23 @@
       loadMainDartJs();
     }
   </script>
+
+  <!-- Add the initialization script before the closing </body> tag -->
+  <script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyD0ytRbjVCYrPEtG63_DP83g2wKoqvPtr4",
+    authDomain: "jef-website-5fb5b.firebaseapp.com",
+    projectId: "jef-website-5fb5b",
+    storageBucket: "jef-website-5fb5b.appspot.com",
+    messagingSenderId: "56899780723",
+    appId: "1:56899780723:web:885689c0ef042be0c5aa06",
+    measurementId: "G-JXG2PSFD2T"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics(); // Initialize analytics (optional)
+</script>
+
 </body>
 </html>

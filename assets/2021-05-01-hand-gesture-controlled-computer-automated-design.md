@@ -22,7 +22,7 @@ Link to proof of concept recording: [LinkedIn : Jef Ntungila](https://www.linked
 ```
 ## **Project Overview**
 
-In this project, I have developed an approach to design technology inspired by Elon Musk's vision. I call it "hand-gesture-controlled computer automated design" (CAD) system.
+In this project, I have developed an approach to design technology inspired by Elon Musk's vision. I call it "hand-gesture-controlled computer automated design".
 ```
  
 ```

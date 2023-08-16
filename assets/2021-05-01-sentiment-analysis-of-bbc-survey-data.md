@@ -29,10 +29,18 @@ In this analysis, I explore the sentiment and emotion present in the survey data
 
 ```
 ## **Methodology**
+```
+ 
+```
 
 I employed Sentiment Analysis and Emotion Detection techniques to analyse the open-ended comments provided by the survey respondents. The primary goal of this research was to answer the questions of who responded, what they responded, how they responded, and why they responded in a certain way.
-
+```
+ 
+```
 My approach involves the following steps:
+```
+ 
+```
 
 1. **Respondent Segmentation:** I segmented respondents based on various factors to gain insights into different groups of viewers.
 
@@ -45,11 +53,17 @@ My approach involves the following steps:
  
 ```
 ## **Key Findings**
+```
+ 
+```
 
 My analysis reveals significant insights:
 
+
 - There exists a substantial difference between the emotions expressed in the comments and the ratings given by the respondents.
 - By exploring the sentiment and emotion, I gain a more comprehensive understanding of viewers' reactions beyond the numerical ratings.
-
+```
+ 
+```
 This research sheds light on the complex interplay between audience sentiment, emotion, and appreciation scores, providing valuable insights for content creators and broadcasters.
 

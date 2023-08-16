@@ -10,7 +10,6 @@
 - Generative Adversarial Network
 - Auto-Encoders
 - Ethical AI
--
 ```
  
 ```
