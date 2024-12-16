@@ -1,16 +1,43 @@
-# mamie_website
+# 📊 Jef Ntungila - Data Science Portfolio
 
-A new Flutter project.
+Welcome to my personal portfolio website, where I showcase projects and insights in **data science**, **machine learning**, **GenAI** and **AI**.
 
-## Getting Started
+## 🚀 **Overview**
+This portfolio highlights my expertise and work on:
+- Sentiment Analysis of Social Media Data (YouTube & Twitch)
+- Churn Analysis for Telco Data and Business Insights
+- Ethical AI: Reflecting on Fair Adversarial Networks
+- HR Analytics: Case Studies in Consulting
+- Hand Gesture-Controlled CAD using Computer Vision
+- Comparison of Time Series Methodologies
+- Applications of Facial Recognition Technology
+- GenAI applications
 
-This project is a starting point for a Flutter application.
+Explore solutions tackling real-world problems using data-driven methodologies, machine learning algorithms, and analytical tools.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 🛠 **Technologies Used**
+- **Programming Languages**: Python, R, Dart
+- **Tools & Frameworks**: Flutter (for web interface), Pandas, Scikit-Learn, TensorFlow, OpenCV
+- **Web Deployment**: Flutter for Web
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🌐 **Live Demo**
+Visit the website here: [jefntungila.com](https://www.jefntungila.com)
+
+---
+
+## 📄 **Structure**
+- **`/web`**: Contains the website source files (HTML, JavaScript, and assets).
+- **`index.html`**: Entry point for the portfolio site with metadata optimized for SEO.
+- **`/icons`**: Includes the favicon and other images for branding.
+
+---
+
+## 📬 **Contact**
+For collaborations, questions, or feedback, feel free to connect with me via:
+- **Email**: [your-email@example.com]
+- **LinkedIn**: [LinkedIn Profile URL]
+
