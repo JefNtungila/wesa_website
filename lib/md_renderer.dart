@@ -58,16 +58,36 @@ class _MarkdownReaderState extends State<MarkdownReader> {
         //width: MediaQuery.of(context).size.width),
         color: Colors.white,
         child: Padding(
-          padding: EdgeInsets.all(16.0),
-          child: Markdown(data: _markdownContent,
-          onTapLink: _onTapLink),
+          padding: EdgeInsets.all(15.0),
+          child: Column(
+            children: [
+              Expanded(
+                child: Markdown(data: _markdownContent,
+                onTapLink: _onTapLink),
+              ),
+              SizedBox(height: 30,),
+              GestureDetector(
+                onTap: () {
+                  Navigator.of(context).popUntil((route) => route.isFirst) ; // return to home page when gesture is detected
+                },
+                child: Text(
+                  'return to home page',
+                  style: TextStyle(
+                      fontWeight: FontWeight.w400,
+                      fontSize: 10,
+                      color:  Color.fromRGBO (32, 150, 243, 1.0),
+                      decoration: TextDecoration.underline),
+                ),
+              )
+            ],
+          ),
         ),
       ),
     );
   }
 }
 
-//void main() => runApp(MaterialApp(home: MarkdownReader()));
+
 
 
 

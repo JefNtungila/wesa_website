@@ -36,8 +36,5 @@ Visit the website here: [jefntungila.com](https://www.jefntungila.com)
 
 ---
 
-## 📬 **Contact**
-For collaborations, questions, or feedback, feel free to connect with me via:
-- **Email**: [your-email@example.com]
-- **LinkedIn**: [LinkedIn Profile URL]
+
 
