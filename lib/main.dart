@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
             if (Navigator.of(context).canPop()){
               return true;
             } else {
-              return false;
+              //hack to always allow return navigation, let's see if it works
+              return true;
             }
           },
           child: HomePage()),

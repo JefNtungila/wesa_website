@@ -30,28 +30,25 @@ class HomePage extends StatelessWidget {
                         Icons.folder,
                         color: Colors.black,
                       ),
-                      text: 'Data Science Portfolio'),
+                  child: Flexible(child: Text('Data Science Portfolio')),),
                   Tab(
                     icon: Icon(
                       Icons.list,
                       color: Colors.black,
                     ),
-                    text: 'Data Science Cheat Sheet',
-                  ),
+                    child: Flexible(child: Text('Data Science Cheat Sheet')),),
                   Tab(
                     icon: Icon(
                       Icons.lightbulb,
                       color: Colors.black,
                     ),
-                    text: 'Data Science Musings',
-                  ),
+                    child: Flexible(child: Text('Data Science Musings')),),
                   Tab(
                     icon: Icon(
                       Icons.description,
                       color: Colors.black,
                     ),
-                    text: 'CV',
-                  ),
+                    child: Flexible(child: Text('CV')),),
                 ],
               ),
             ),
