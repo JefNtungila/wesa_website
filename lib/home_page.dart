@@ -6,6 +6,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 4,
+
       child: Scaffold(
           appBar: PreferredSize(
             preferredSize: Size.fromHeight(250),
@@ -23,6 +24,7 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               bottom: TabBar(
+                isScrollable: true,
                 labelColor: Colors.black,
                 tabs: [
                   Tab(
