@@ -23,6 +23,12 @@ class _PortfolioState extends State<Portfolio> {
       'title': 'Comparison of Timeseries Methodology',
     },
     {
+      'fileName':
+      '2025-01-03-classifying_transactions_a_comparison_of_traditional_Machine_Learning_for_NLP _vs_ChatGPT_API.md',
+      'title':
+      'Classifying Transactions: A Comparison of Traditional Machine Learning for NLP vs ChatGPT API',
+    },
+    {
       'fileName': '2021-08-03-HR-Analytics-Client-Case-Study.md',
       'title': 'HR-Analytics, A Data Science Consulting Client Case Study',
     },
@@ -53,6 +59,12 @@ class _PortfolioState extends State<Portfolio> {
       'title':
       'The Application of Facial Recognition Technology by Law Enforcement',
     },
+    {
+      'fileName':
+      '2025-01-03-GenAI_Evaluation_An_acceptance_test-driven_development_Approach.md',
+      'title':
+      'GenAI Evaluation: An Acceptance Test-Driven Development Approach',
+    }
   ];
 
   @override
