@@ -1,23 +1,42 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:url_strategy/url_strategy.dart';
+import 'firebase_options.dart';
 import 'home_page.dart';
 
-// adding comments to bait github
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  setPathUrlStrategy();
 
-void main() {
-  runApp(MyApp());
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
+  runApp(const MyApp()); // This 'const' requires the constructor below
 }
 
 class MyApp extends StatelessWidget {
+  // Fixed: Added 'const' to the constructor
+  const MyApp({Key? key}) : super(key: key);
+
+  static FirebaseAnalyticsObserver observer =
+  FirebaseAnalyticsObserver(analytics: FirebaseAnalytics.instance);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: WillPopScope(
-        // wilpopscope handles backbutton, but backbutton does not appear in browser with no history
-        // https://github.com/flutter/flutter/issues/59185
-          onWillPop: () async {
-              return true;
-            },
-          child: HomePage()),
+      title: 'Jef Ntungila Portfolio',
+      navigatorObservers: [observer],
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        useMaterial3: true,
+      ),
+      // Fixed: Removed 'const' here because HomePage probably isn't a const class
+      home: PopScope(
+        canPop: true,
+        child: HomePage(),
+      ),
     );
   }
 }

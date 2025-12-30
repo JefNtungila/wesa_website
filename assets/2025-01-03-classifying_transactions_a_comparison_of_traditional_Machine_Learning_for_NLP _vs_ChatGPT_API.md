@@ -1,4 +1,4 @@
-# **Classifying transactions: a comparison of traditional Machine Learning for NLP vs ChatGPT API**
+# **Classifying Transactions: A Comparison of Traditional Machine Learning for NLP vs ChatGPT API**
 
 ---
 ```

@@ -36,6 +36,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_markdown: ^0.6.17+1
   url_launcher: ^6.1.12
+  firebase_core: ^4.3.0
+  firebase_analytics: ^12.1.0
+  url_strategy: ^0.3.0
 
 dev_dependencies:
   flutter_test:
