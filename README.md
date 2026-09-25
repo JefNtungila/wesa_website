@@ -1,40 +1,56 @@
-# 📊 Jef Ntungila - Data Science Portfolio
+# WESA Construction - Site Web
 
-Welcome to my personal portfolio website, where I showcase projects and insights in **data science**, **machine learning**, **GenAI** and **AI**.
+Site web officiel de **WESA Construction**, entreprise de construction et rénovation basée à Waregem, Belgique.
 
-## 🚀 **Overview**
-This portfolio highlights my expertise and work on:
-- Sentiment Analysis of Social Media Data (YouTube & Twitch)
-- Churn Analysis for Telco Data and Business Insights
-- Ethical AI: Reflecting on Fair Adversarial Networks
-- HR Analytics: Case Studies in Consulting
-- Hand Gesture-Controlled CAD using Computer Vision
-- Comparison of Time Series Methodologies
-- Applications of Facial Recognition Technology
-- GenAI applications
+## Aperçu
 
-Explore solutions tackling real-world problems using data-driven methodologies, machine learning algorithms, and analytical tools.
+Ce site est développé avec **Flutter Web** et hébergé via **Firebase Hosting**. Il présente les services de l'entreprise, un aperçu de l'activité et les coordonnées de contact.
 
----
+### Sections du site
 
-## 🛠 **Technologies Used**
-- **Programming Languages**: Python, R, Dart
-- **Tools & Frameworks**: Flutter (for web interface), Pandas, Scikit-Learn, TensorFlow, OpenCV
-- **Web Deployment**: Flutter for Web
+- **Accueil** - Présentation de l'entreprise et description de l'activité
+- **Services** - Liste des prestations proposées (rénovation, plomberie, électricité, toiture, peinture, etc.)
+- **Contact** - Coordonnées téléphoniques, email, adresse et réseaux sociaux
 
----
+## Technologies utilisées
 
-## 🌐 **Live Demo**
-Visit the website here: [jefntungila.com](https://www.jefntungila.com)
+- **Framework** : Flutter (Web)
+- **Hébergement** : Firebase Hosting
+- **Analytique** : Firebase Analytics
+- **Carousel** : carousel_slider
+- **Lancement d'URLs** : url_launcher
 
----
+## Installation
 
-## 📄 **Structure**
-- **`/web`**: Contains the website source files (HTML, JavaScript, and assets).
-- **`index.html`**: Entry point for the portfolio site with metadata optimized for SEO.
-- **`/icons`**: Includes the favicon and other images for branding.
+```bash
+flutter pub get
+flutter run -d chrome
+```
 
----
+## Déploiement
 
+```bash
+flutter build web
+firebase deploy
+```
 
+## Structure du projet
 
+- **`lib/`** - Code Dart source de l'application Flutter
+  - `main.dart` - Point d'entrée de l'application
+  - `home_page.dart` - Page principale avec navigation par onglets
+  - `welcome.dart` - Section d'accueil
+  - `service.dart` - Section des services
+  - `contact.dart` - Section de contact
+- **`assets/`** - Images et ressources (photos de projets, logo)
+- **`web/`** - Fichiers de configuration web
+- **`firebase.json`** - Configuration Firebase Hosting
+
+## Contact
+
+- **Téléphone** : +32 46 85 47 559
+- **Email** : wesachito@gmail.com
+- **Adresse** : Hoogmolenwegel 3, 8790 Waregem
+- **Facebook** : Wesa Officiel
+- **Instagram** : @wesa_officiel
+- **TikTok** : @wesa.officiel
