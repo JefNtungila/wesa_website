@@ -17,7 +17,6 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
-  // Fixed: Added 'const' to the constructor
   const MyApp({Key? key}) : super(key: key);
 
   static FirebaseAnalyticsObserver observer =
@@ -26,13 +25,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Jef Ntungila Portfolio',
+      title: 'WESA Portfolio',
       navigatorObservers: [observer],
       theme: ThemeData(
         primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
-      // Fixed: Removed 'const' here because HomePage probably isn't a const class
       home: PopScope(
         canPop: true,
         child: HomePage(),
